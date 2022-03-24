@@ -1,0 +1,623 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.3"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Ricardo",
+      "surnames": "Soto Estévez",
+      "title": "Galician Rust entusiast",
+      "description": "I started to code when I was twelve, following a random tutorial I found on YT by chance. I fell in love with the discipline and have been coding in my free time ever since. So, picking the Software Engineering grade was an easy choice.\n\nI like all the different disciplines of software I've dealt with but right now I'm kinda specilizing in backend/systems engineering, also search engine development as part of my current job position.",
+      "avatar": {
+        "alt": "photo_2021-01-29_22-55-27.jpg",
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/a47beafa-57cb-4f70-b34c-062618c40ae3_photo_2021-01-29_22-.jpg"
+      },
+      "location": {
+        "notes": "Oviedo, Spain"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/sotoestevez/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/kriogenia"
+      },
+      {
+        "type": "twitter",
+        "URL": "https://twitter.com/kriogenia"
+      },
+      {
+        "type": "other",
+        "URL": "https://www.sotoestevez.dev/"
+      }
+    ],
+    "interestingFacts": [
+      {
+        "topic": "My favourite games",
+        "fact": "* Hollow Knight\n* Outer Wilds\n* Minecraft\n* FromSoftware games\n* Mass Effect"
+      },
+      {
+        "topic": "My favourite movies",
+        "fact": "* The Lion King\n* Shawshank Redemption\n* Parasyte"
+      },
+      {
+        "topic": "My favourite books",
+        "fact": "* The Stormlight Archive"
+      },
+      {
+        "topic": "My nicknames",
+        "fact": "* Kriogenia\n* Soto\n* Richi\n* Ric"
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The Catalog of Design Patterns",
+        "type": "other",
+        "URL": "https://refactoring.guru/design-patterns/catalog",
+        "authors": [
+          {
+            "name": "Refactoring.",
+            "surnames": "Guru",
+            "title": "Author"
+          }
+        ],
+        "summary": "Basic and very intituitive explanations of the different software design patterns."
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Empathy Systems Corporation SLU",
+          "image": {
+            "alt": "empathy-main-logo.svg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/9da18c00-c5d3-4fbd-a949-6540f0701479_empathy-main-logo.svg"
+          },
+          "URL": "https://empathy.co/company/academy/"
+        },
+        "roles": [
+          {
+            "name": "Search Intern",
+            "startDate": "2021-02-01",
+            "finishDate": "2021-08-01",
+            "challenges": [
+              {
+                "description": "Internship in the Empathy Academy following the Search Path. It was an internship in collaboration with the university and during those months I was learning about searching and making my own search engine as part of the process.\n\nAt the end of that path we started to make collaborative projects with our Academy colleagues the last three months. My team made an API to help clients to take ownership of their purchase history data and allow sharing that data with different platforms, all that while it was stored on their own SOLID Pod."
+              }
+            ],
+            "competences": [
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "Elasticsearch",
+                "type": "technology"
+              },
+              {
+                "name": "Express",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "Micronaut",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Empathy Systems Corporation SLU",
+          "image": {
+            "alt": "empathy-main-logo.svg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/e56a4d94-4463-4fa3-b717-8899ba645937_empathy-main-logo.svg"
+          },
+          "URL": "https://empathy.co/"
+        },
+        "roles": [
+          {
+            "name": "Search Backend Engineer",
+            "startDate": "2021-08-01",
+            "challenges": [
+              {
+                "description": "Development of an e-commerce search engine in oversea collaboration with Algonomy."
+              }
+            ],
+            "competences": [
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "MongoDB",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "Bash",
+                "type": "technology"
+              },
+              {
+                "name": "Solr",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "The Parting of Sarah",
+          "description": ""
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2019-10-01",
+            "finishDate": "2020-12-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "All for One",
+          "description": "End of degree project qualified with a 9.5 mark. Tool to help families with some member diagnosed of the Alzheimer disease. It's composed of one Android app and a cloud API with both REST and WebSocket interfaces.\n\nSome of its features are patient geolocation, real-life-time chat, task management and user bonding.",
+          "URL": "https://www.linkedin.com/feed/update/urn:li:activity:6900463174059909122/",
+          "image": {
+            "alt": "4l1-logo.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/2477e1c8-a45a-4ccc-8203-728b55336dee_4l1-logo.png"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2021-06-01",
+            "finishDate": "2022-02-01",
+            "competences": [
+              {
+                "name": "Kotlin",
+                "type": "technology"
+              },
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "Retrofit",
+                "type": "technology"
+              },
+              {
+                "name": "Google Maps",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "WebSockets",
+                "type": "technology"
+              },
+              {
+                "name": "Socket.io",
+                "type": "technology"
+              },
+              {
+                "name": "Express",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "MongoDB",
+                "type": "technology"
+              },
+              {
+                "name": "JSON",
+                "type": "technology"
+              },
+              {
+                "name": "Jest",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "BresenhamZip",
+          "description": "",
+          "URL": "https://crates.io/crates/bresenham_zip",
+          "image": {
+            "alt": "Cargo-Logo-Small.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/100c199b-4631-4164-aa76-9b7ed85d285a_cargo-logo-small.png"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2022-03-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Ferrux Canvas",
+          "description": "todo",
+          "URL": "https://crates.io/crates/ferrux_canvas",
+          "image": {
+            "alt": "Cargo-Logo-Small.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/c5f7b2f9-2bf6-4759-b15b-dd1f0f1e9188_cargo-logo-small.png"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2022-02-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "COWS",
+          "description": ""
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2020-10-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Shotdown",
+          "description": ""
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2020-12-01",
+            "finishDate": "2021-02-01"
+          }
+        ]
+      }
+    ],
+    "publicArtifacts": [
+      {
+        "details": {
+          "name": "Hour of Code 2021",
+          "description": "Participe in the Hour of Code 2021 teaching coding to four groups of kids of 10-12 age range.",
+          "URL": "https://hourofcode.com/",
+          "image": {
+            "alt": "Cargo-Logo-Small.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/85d4e7b5-30d3-4d6b-bf55-c530cae125b5_cargo-logo-small.png"
+          }
+        },
+        "type": "talk",
+        "publishingDate": "2022-12-01",
+        "relatedCompetences": [
+          {
+            "name": "Scratch",
+            "type": "technology"
+          }
+        ],
+        "tags": [
+          "Teaching"
+        ]
+      },
+      {
+        "details": {
+          "name": "Finishing my degree presenting All For One",
+          "description": "The day to finally show my end of degree project to the tribunal and getting the long awaited title of Software Engineer.",
+          "image": {
+            "alt": "245px-Logo_Universidad_de_Oviedo_centrado.jpg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/1fb21f49-783a-481a-9f5e-e3fb86a39639_245px-logo_universid.jpg"
+          }
+        },
+        "type": "launch",
+        "publishingDate": "2022-02-01",
+        "relatedCompetences": [
+          {
+            "name": "Kotlin",
+            "type": "technology"
+          },
+          {
+            "name": "Android",
+            "type": "technology"
+          },
+          {
+            "name": "Retrofit",
+            "type": "technology"
+          },
+          {
+            "name": "Google Maps",
+            "type": "technology"
+          },
+          {
+            "name": "TypeScript",
+            "type": "technology"
+          },
+          {
+            "name": "NodeJS",
+            "type": "technology"
+          },
+          {
+            "name": "Express",
+            "type": "technology"
+          },
+          {
+            "name": "Socket.io",
+            "type": "technology"
+          },
+          {
+            "name": "WebSockets",
+            "type": "technology"
+          },
+          {
+            "name": "REST",
+            "type": "technology"
+          },
+          {
+            "name": "JSON",
+            "type": "technology"
+          },
+          {
+            "name": "Azure",
+            "type": "technology"
+          },
+          {
+            "name": "MongoDB",
+            "type": "technology"
+          },
+          {
+            "name": "Jest",
+            "type": "technology"
+          },
+          {
+            "name": "Latex",
+            "type": "technology"
+          }
+        ],
+        "tags": [
+          "End of Degree Project"
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Software Engineering",
+        "startDate": "2017-09-01",
+        "finishDate": "2022-02-01",
+        "institution": {
+          "name": "University of Oviedo",
+          "description": "Computer Engineering degree focused on software development",
+          "URL": "https://ingenieriainformatica.uniovi.es/infoacademica/grado",
+          "image": {
+            "alt": "245px-Logo_Universidad_de_Oviedo_centrado.jpg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/9dbb1a45-0ee4-4272-a406-78bcf9b22a16_245px-logo_universid.jpg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "JAVA",
+            "type": "technology"
+          },
+          {
+            "name": "C#",
+            "type": "technology"
+          },
+          {
+            "name": "MongoDB",
+            "type": "technology"
+          },
+          {
+            "name": "Spring",
+            "type": "technology"
+          },
+          {
+            "name": "Matlab",
+            "type": "technology"
+          },
+          {
+            "name": "Python",
+            "type": "technology"
+          },
+          {
+            "name": "Swing",
+            "type": "technology"
+          },
+          {
+            "name": "R",
+            "type": "technology"
+          },
+          {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "C++",
+            "type": "technology"
+          },
+          {
+            "name": "Prolog",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
+            "name": "NoSQL",
+            "type": "technology"
+          },
+          {
+            "name": "NEO4J",
+            "type": "technology"
+          },
+          {
+            "name": "PL/SQL",
+            "type": "technology"
+          },
+          {
+            "name": "Elasticsearch",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "Google Maps",
+            "type": "technology"
+          },
+          {
+            "name": "jQuery",
+            "type": "technology"
+          },
+          {
+            "name": "AJAX",
+            "type": "technology"
+          },
+          {
+            "name": "Bitbucket",
+            "type": "technology"
+          },
+          {
+            "name": "Git",
+            "type": "technology"
+          },
+          {
+            "name": "NodeJS",
+            "type": "technology"
+          },
+          {
+            "name": "Servlet",
+            "type": "technology"
+          },
+          {
+            "name": "REST",
+            "type": "technology"
+          },
+          {
+            "name": "React",
+            "type": "technology"
+          },
+          {
+            "name": "MaterialUI",
+            "type": "technology"
+          },
+          {
+            "name": "Android",
+            "type": "technology"
+          },
+          {
+            "name": "Kotlin",
+            "type": "technology"
+          },
+          {
+            "name": "Unreal",
+            "type": "technology"
+          }
+        ]
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "linkedin",
+          "URL": "https://www.linkedin.com/in/sotoestevez/"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "Rust",
+          "type": "technology"
+        },
+        {
+          "name": "Elasticsearch",
+          "type": "technology"
+        },
+        {
+          "name": "Docker",
+          "type": "technology"
+        },
+        {
+          "name": "REST",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "React Native",
+          "type": "technology"
+        },
+        {
+          "name": "PHP",
+          "type": "technology"
+        }
+      ]
+    }
+  }
+}
