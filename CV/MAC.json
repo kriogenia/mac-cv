@@ -298,19 +298,6 @@
       },
       {
         "details": {
-          "name": "COWS",
-          "description": ""
-        },
-        "type": "openSource",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2020-10-01"
-          }
-        ]
-      },
-      {
-        "details": {
           "name": "Shotdown",
           "description": ""
         },
@@ -320,6 +307,35 @@
             "name": "Developer",
             "startDate": "2020-12-01",
             "finishDate": "2021-02-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "COWS",
+          "description": "Android application developed during the mobile software subject at the University. It's a news aggregator for COVID related news, allowing their users to quickly look at the new info about the pandemic.",
+          "URL": "https://play.google.com/store/apps/details?id=es.uniovi.eii.cows",
+          "image": {
+            "alt": "Covicita.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ef5d2259-db85-4395-a094-00a4baebc2cf_covicita.png"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2020-10-01",
+            "finishDate": "2021-01-01",
+            "competences": [
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "Android",
+                "type": "technology"
+              }
+            ]
           }
         ]
       }
