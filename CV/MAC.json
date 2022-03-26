@@ -8,14 +8,14 @@
     "profile": {
       "name": "Ricardo",
       "surnames": "Soto Estévez",
-      "title": "Galician Rust entusiast",
-      "description": "I started to code when I was twelve, following a random tutorial I found on YT by chance. I fell in love with the discipline and have been coding in my free time ever since. So, picking the Software Engineering grade was an easy choice.\n\nI like all the different disciplines of software I've dealt with but right now I'm kinda specilizing in backend/systems engineering, also search engine development as part of my current job position.",
+      "title": "Galician Rust entusiast, working on search engines right now",
+      "description": "I started to code when I was twelve, following a random tutorial I found on YT by chance. I fell in love with the discipline and have been coding in my free time ever since. So, picking the Software Engineering grade was an easy choice.\n\nI like all the different disciplines of software I've dealt with but right now I'm kinda specilizing in backend/systems engineering and search engine development as part of my current job position.",
       "avatar": {
         "alt": "photo_2021-01-29_22-55-27.jpg",
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/a47beafa-57cb-4f70-b34c-062618c40ae3_photo_2021-01-29_22-.jpg"
       },
       "location": {
-        "notes": "Oviedo, Spain"
+        "notes": "Oviedo, Asturias / Noia, Galiza (Spain)"
       }
     },
     "relevantLinks": [
@@ -209,15 +209,27 @@
                 "type": "technology"
               },
               {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "MongoDB",
+                "type": "technology"
+              },
+              {
                 "name": "Android",
                 "type": "technology"
               },
               {
-                "name": "Retrofit",
+                "name": "Express",
                 "type": "technology"
               },
               {
-                "name": "Google Maps",
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "Jest",
                 "type": "technology"
               },
               {
@@ -233,27 +245,15 @@
                 "type": "technology"
               },
               {
-                "name": "Express",
-                "type": "technology"
-              },
-              {
-                "name": "NodeJS",
-                "type": "technology"
-              },
-              {
-                "name": "TypeScript",
-                "type": "technology"
-              },
-              {
-                "name": "MongoDB",
-                "type": "technology"
-              },
-              {
                 "name": "JSON",
                 "type": "technology"
               },
               {
-                "name": "Jest",
+                "name": "Google Maps",
+                "type": "technology"
+              },
+              {
+                "name": "Retrofit",
                 "type": "technology"
               }
             ]
