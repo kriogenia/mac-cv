@@ -46,12 +46,16 @@
         "fact": "* The Lion King\n* Shawshank Redemption\n* Parasyte"
       },
       {
-        "topic": "My favourite books",
-        "fact": "* The Stormlight Archive"
+        "topic": "My favourite authors",
+        "fact": "* Brandon Sanderson\n* JRR Tolkien\n* HP Lovecraft\n* Eiichiro Oda"
       },
       {
         "topic": "My nicknames",
         "fact": "* Kriogenia\n* Soto\n* Richi\n* Ric"
+      },
+      {
+        "topic": "My favourite series",
+        "fact": "* Neon Genesis Evangelion\n* Friends\n* Steins;Gate\n* House MD\n* March comes in like a lion"
       }
     ],
     "recommendations": [
