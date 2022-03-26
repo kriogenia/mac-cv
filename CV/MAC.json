@@ -648,6 +648,10 @@
         {
           "name": "REST",
           "type": "technology"
+        },
+        {
+          "name": "Kotlin",
+          "type": "technology"
         }
       ],
       "discardedCompetences": [
