@@ -298,20 +298,6 @@
       },
       {
         "details": {
-          "name": "Shotdown",
-          "description": ""
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2020-12-01",
-            "finishDate": "2021-02-01"
-          }
-        ]
-      },
-      {
-        "details": {
           "name": "COWS",
           "description": "Android application developed during the mobile software subject at the University. It's a news aggregator for COVID related news, allowing their users to quickly look at the new info about the pandemic.",
           "URL": "https://play.google.com/store/apps/details?id=es.uniovi.eii.cows",
@@ -333,6 +319,31 @@
               },
               {
                 "name": "Android",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Shotdown",
+          "description": "Videogame developed during the videogames subject of the grade, evaluated with the maximum mark. IIt's a 2D platform and action competive game with focus in the movement and weapon diversity.",
+          "URL": "https://kriogenia.itch.io/shotdown",
+          "image": {
+            "alt": "logo.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/50a3015a-fba2-4e92-8092-7c7509563c26_logo.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2020-12-01",
+            "finishDate": "2021-02-01",
+            "competences": [
+              {
+                "name": "C++",
                 "type": "technology"
               }
             ]
