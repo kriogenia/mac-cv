@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "settings": {
-    "language": "EN",
+    "language": "ES",
     "MACVersion": "0.3"
   },
   "aboutMe": {
@@ -15,14 +15,13 @@
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/a47beafa-57cb-4f70-b34c-062618c40ae3_photo_2021-01-29_22-.jpg"
       },
       "location": {
-        "notes": "Oviedo, Asturias / Noia, Galiza (Spain)"
+        "country": "España",
+        "region": "Principado de Asturias",
+        "municipality": "Oviedo",
+        "notes": "Autocompleted using Google Maps API"
       }
     },
     "relevantLinks": [
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/sotoestevez/"
-      },
       {
         "type": "github",
         "URL": "https://github.com/kriogenia"
@@ -32,22 +31,22 @@
         "URL": "https://twitter.com/kriogenia"
       },
       {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/sotoestevez/"
+      },
+      {
         "type": "other",
         "URL": "https://www.sotoestevez.dev/"
       }
     ],
     "interestingFacts": [
       {
-        "topic": "My favourite games",
-        "fact": "* Hollow Knight\n* Outer Wilds\n* Minecraft\n* FromSoftware games\n* Mass Effect"
-      },
-      {
-        "topic": "My favourite movies",
-        "fact": "* The Lion King\n* Shawshank Redemption\n* Parasyte"
-      },
-      {
         "topic": "My favourite authors",
         "fact": "* Brandon Sanderson\n* JRR Tolkien\n* HP Lovecraft\n* Eiichiro Oda"
+      },
+      {
+        "topic": "My favourite games",
+        "fact": "* Hollow Knight\n* Outer Wilds\n* Minecraft\n* FromSoftware games\n* Mass Effect"
       },
       {
         "topic": "My nicknames",
@@ -56,6 +55,10 @@
       {
         "topic": "My favourite series",
         "fact": "* Neon Genesis Evangelion\n* Friends\n* Steins;Gate\n* House MD\n* March comes in like a lion"
+      },
+      {
+        "topic": "My favourite movies",
+        "fact": "* The Lion King\n* Shawshank Redemption\n* Parasyte"
       }
     ],
     "recommendations": [
@@ -81,6 +84,57 @@
           "name": "Empathy Systems Corporation SLU",
           "image": {
             "alt": "empathy-main-logo.svg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/e56a4d94-4463-4fa3-b717-8899ba645937_empathy-main-logo.svg"
+          },
+          "URL": "https://empathy.co/"
+        },
+        "roles": [
+          {
+            "name": "Search Backend Engineer",
+            "startDate": "2021-08-01",
+            "challenges": [
+              {
+                "description": "Development of an e-commerce search engine in oversea collaboration with Algonomy."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Bash",
+                "type": "technology"
+              },
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "MongoDB",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "Solr",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Empathy Systems Corporation SLU",
+          "image": {
+            "alt": "empathy-main-logo.svg",
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/9da18c00-c5d3-4fbd-a949-6540f0701479_empathy-main-logo.svg"
           },
           "URL": "https://empathy.co/company/academy/"
@@ -97,14 +151,6 @@
             ],
             "competences": [
               {
-                "name": "JAVA",
-                "type": "technology"
-              },
-              {
-                "name": "NodeJS",
-                "type": "technology"
-              },
-              {
                 "name": "Elasticsearch",
                 "type": "technology"
               },
@@ -113,62 +159,19 @@
                 "type": "technology"
               },
               {
-                "name": "TypeScript",
+                "name": "JAVA",
                 "type": "technology"
               },
               {
                 "name": "Micronaut",
                 "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Empathy Systems Corporation SLU",
-          "image": {
-            "alt": "empathy-main-logo.svg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/e56a4d94-4463-4fa3-b717-8899ba645937_empathy-main-logo.svg"
-          },
-          "URL": "https://empathy.co/"
-        },
-        "roles": [
-          {
-            "name": "Search Backend Engineer",
-            "startDate": "2021-08-01",
-            "challenges": [
+              },
               {
-                "description": "Development of an e-commerce search engine in oversea collaboration with Algonomy."
-              }
-            ],
-            "competences": [
-              {
-                "name": "JAVA",
+                "name": "NodeJS",
                 "type": "technology"
               },
               {
-                "name": "Spring",
-                "type": "technology"
-              },
-              {
-                "name": "PostgreSQL",
-                "type": "technology"
-              },
-              {
-                "name": "MongoDB",
-                "type": "technology"
-              },
-              {
-                "name": "REST",
-                "type": "technology"
-              },
-              {
-                "name": "Bash",
-                "type": "technology"
-              },
-              {
-                "name": "Solr",
+                "name": "TypeScript",
                 "type": "technology"
               }
             ]
@@ -179,106 +182,7 @@
     "projects": [
       {
         "details": {
-          "name": "The Parting of Sarah",
-          "description": "Videogame developed coursing the related subject in the degree. Procedural top-down action rogue-like heavily inspired in games like The Binding of Isaac. It features power-ups, level-ups and different enemies and bosses.",
-          "URL": "https://kriogenia.itch.io/the-parting-of-sarah",
-          "image": {
-            "alt": "logo.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ee63f394-586d-4ced-aea0-7f092f411610_logo.png"
-          }
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2019-10-01",
-            "finishDate": "2020-12-01",
-            "competences": [
-              {
-                "name": "C++",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "All for One",
-          "description": "End of degree project qualified with a 9.5 mark. Tool to help families with some member diagnosed of the Alzheimer disease. It's composed of one Android app and a cloud API with both REST and WebSocket interfaces.\n\nSome of its features are patient geolocation, real-life-time chat, task management and user bonding.",
-          "URL": "https://www.linkedin.com/feed/update/urn:li:activity:6900463174059909122/",
-          "image": {
-            "alt": "4l1-logo.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/2477e1c8-a45a-4ccc-8203-728b55336dee_4l1-logo.png"
-          }
-        },
-        "type": "openSource",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2021-06-01",
-            "finishDate": "2022-02-01",
-            "competences": [
-              {
-                "name": "Kotlin",
-                "type": "technology"
-              },
-              {
-                "name": "NodeJS",
-                "type": "technology"
-              },
-              {
-                "name": "MongoDB",
-                "type": "technology"
-              },
-              {
-                "name": "Android",
-                "type": "technology"
-              },
-              {
-                "name": "Express",
-                "type": "technology"
-              },
-              {
-                "name": "TypeScript",
-                "type": "technology"
-              },
-              {
-                "name": "Jest",
-                "type": "technology"
-              },
-              {
-                "name": "REST",
-                "type": "technology"
-              },
-              {
-                "name": "WebSockets",
-                "type": "technology"
-              },
-              {
-                "name": "Socket.io",
-                "type": "technology"
-              },
-              {
-                "name": "JSON",
-                "type": "technology"
-              },
-              {
-                "name": "Google Maps",
-                "type": "technology"
-              },
-              {
-                "name": "Retrofit",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "details": {
           "name": "BresenhamZip",
-          "description": "",
           "URL": "https://crates.io/crates/bresenham_zip",
           "image": {
             "alt": "Cargo-Logo-Small.png",
@@ -313,27 +217,71 @@
       },
       {
         "details": {
-          "name": "COWS",
-          "description": "Android application developed during the mobile software subject at the University. It's a news aggregator for COVID related news, allowing their users to quickly look at the new info about the pandemic.",
-          "URL": "https://play.google.com/store/apps/details?id=es.uniovi.eii.cows",
+          "name": "All for One",
+          "description": "End of degree project qualified with a 9.5 mark. Tool to help families with some member diagnosed of the Alzheimer disease. It's composed of one Android app and a cloud API with both REST and WebSocket interfaces.\n\nSome of its features are patient geolocation, real-life-time chat, task management and user bonding.",
+          "URL": "https://www.linkedin.com/feed/update/urn:li:activity:6900463174059909122/",
           "image": {
-            "alt": "Covicita.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ef5d2259-db85-4395-a094-00a4baebc2cf_covicita.png"
+            "alt": "4l1-logo.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/2477e1c8-a45a-4ccc-8203-728b55336dee_4l1-logo.png"
           }
         },
         "type": "openSource",
         "roles": [
           {
             "name": "Developer",
-            "startDate": "2020-10-01",
-            "finishDate": "2021-01-01",
+            "startDate": "2021-06-01",
+            "finishDate": "2022-02-01",
             "competences": [
               {
-                "name": "JAVA",
+                "name": "Android",
                 "type": "technology"
               },
               {
-                "name": "Android",
+                "name": "Express",
+                "type": "technology"
+              },
+              {
+                "name": "Google Maps",
+                "type": "technology"
+              },
+              {
+                "name": "JSON",
+                "type": "technology"
+              },
+              {
+                "name": "Jest",
+                "type": "technology"
+              },
+              {
+                "name": "Kotlin",
+                "type": "technology"
+              },
+              {
+                "name": "MongoDB",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "Retrofit",
+                "type": "technology"
+              },
+              {
+                "name": "Socket.io",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "WebSockets",
                 "type": "technology"
               }
             ]
@@ -356,6 +304,60 @@
             "name": "Developer",
             "startDate": "2020-12-01",
             "finishDate": "2021-02-01",
+            "competences": [
+              {
+                "name": "C++",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "COWS",
+          "description": "Android application developed during the mobile software subject at the University. It's a news aggregator for COVID related news, allowing their users to quickly look at the new info about the pandemic.",
+          "URL": "https://play.google.com/store/apps/details?id=es.uniovi.eii.cows",
+          "image": {
+            "alt": "Covicita.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ef5d2259-db85-4395-a094-00a4baebc2cf_covicita.png"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2020-10-01",
+            "finishDate": "2021-01-01",
+            "competences": [
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "JAVA",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "The Parting of Sarah",
+          "description": "Videogame developed coursing the related subject in the degree. Procedural top-down action rogue-like heavily inspired in games like The Binding of Isaac. It features power-ups, level-ups and different enemies and bosses.",
+          "URL": "https://kriogenia.itch.io/the-parting-of-sarah",
+          "image": {
+            "alt": "logo.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ee63f394-586d-4ced-aea0-7f092f411610_logo.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2019-10-01",
+            "finishDate": "2020-12-01",
             "competences": [
               {
                 "name": "C++",
@@ -402,47 +404,7 @@
         "publishingDate": "2022-02-01",
         "relatedCompetences": [
           {
-            "name": "Kotlin",
-            "type": "technology"
-          },
-          {
             "name": "Android",
-            "type": "technology"
-          },
-          {
-            "name": "Retrofit",
-            "type": "technology"
-          },
-          {
-            "name": "Google Maps",
-            "type": "technology"
-          },
-          {
-            "name": "TypeScript",
-            "type": "technology"
-          },
-          {
-            "name": "NodeJS",
-            "type": "technology"
-          },
-          {
-            "name": "Express",
-            "type": "technology"
-          },
-          {
-            "name": "Socket.io",
-            "type": "technology"
-          },
-          {
-            "name": "WebSockets",
-            "type": "technology"
-          },
-          {
-            "name": "REST",
-            "type": "technology"
-          },
-          {
-            "name": "JSON",
             "type": "technology"
           },
           {
@@ -450,7 +412,15 @@
             "type": "technology"
           },
           {
-            "name": "MongoDB",
+            "name": "Express",
+            "type": "technology"
+          },
+          {
+            "name": "Google Maps",
+            "type": "technology"
+          },
+          {
+            "name": "JSON",
             "type": "technology"
           },
           {
@@ -458,7 +428,39 @@
             "type": "technology"
           },
           {
+            "name": "Kotlin",
+            "type": "technology"
+          },
+          {
             "name": "Latex",
+            "type": "technology"
+          },
+          {
+            "name": "MongoDB",
+            "type": "technology"
+          },
+          {
+            "name": "NodeJS",
+            "type": "technology"
+          },
+          {
+            "name": "REST",
+            "type": "technology"
+          },
+          {
+            "name": "Retrofit",
+            "type": "technology"
+          },
+          {
+            "name": "Socket.io",
+            "type": "technology"
+          },
+          {
+            "name": "TypeScript",
+            "type": "technology"
+          },
+          {
+            "name": "WebSockets",
             "type": "technology"
           }
         ],
@@ -471,19 +473,19 @@
   "knowledge": {
     "languages": [
       {
-        "name": "Spanish"
-      },
-      {
         "name": "English"
       },
       {
         "name": "Galician"
+      },
+      {
+        "name": "Spanish"
       }
     ],
     "hardSkills": [
       {
         "skill": {
-          "name": "Python",
+          "name": "Rust",
           "type": "technology"
         }
       },
@@ -495,37 +497,67 @@
       },
       {
         "skill": {
-          "name": "Spring",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Kotlin",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "JavaScript",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "React",
+          "name": "TypeScript",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "HTML",
+          "name": "Elasticsearch",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "CSS",
+          "name": "Solr",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Micronaut",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MongoDB",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NoSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PL/SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Kotlin",
           "type": "technology"
         }
       },
@@ -543,19 +575,13 @@
       },
       {
         "skill": {
-          "name": "MongoDB",
+          "name": "Python",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Elasticsearch",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SQL",
+          "name": "JSON",
           "type": "technology"
         }
       },
@@ -573,19 +599,19 @@
       },
       {
         "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Express",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "TypeScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "NodeJS",
+          "name": "React",
           "type": "technology"
         }
       },
@@ -597,43 +623,25 @@
       },
       {
         "skill": {
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "REST",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "NoSQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Solr",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "PL/SQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Micronaut",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Rust",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "JSON",
+          "name": "Elixir",
           "type": "technology"
         }
       }
@@ -656,95 +664,11 @@
         },
         "linkedCompetences": [
           {
-            "name": "JAVA",
-            "type": "technology"
-          },
-          {
-            "name": "C#",
-            "type": "technology"
-          },
-          {
-            "name": "MongoDB",
-            "type": "technology"
-          },
-          {
-            "name": "Spring",
-            "type": "technology"
-          },
-          {
-            "name": "Matlab",
-            "type": "technology"
-          },
-          {
-            "name": "Python",
-            "type": "technology"
-          },
-          {
-            "name": "Swing",
-            "type": "technology"
-          },
-          {
-            "name": "R",
-            "type": "technology"
-          },
-          {
-            "name": "Linux",
-            "type": "technology"
-          },
-          {
-            "name": "C",
-            "type": "technology"
-          },
-          {
-            "name": "C++",
-            "type": "technology"
-          },
-          {
-            "name": "Prolog",
-            "type": "technology"
-          },
-          {
-            "name": "SQL",
-            "type": "technology"
-          },
-          {
-            "name": "NoSQL",
-            "type": "technology"
-          },
-          {
-            "name": "NEO4J",
-            "type": "technology"
-          },
-          {
-            "name": "PL/SQL",
-            "type": "technology"
-          },
-          {
-            "name": "Elasticsearch",
-            "type": "technology"
-          },
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
-            "name": "JavaScript",
-            "type": "technology"
-          },
-          {
-            "name": "Google Maps",
-            "type": "technology"
-          },
-          {
-            "name": "jQuery",
-            "type": "technology"
-          },
-          {
             "name": "AJAX",
+            "type": "technology"
+          },
+          {
+            "name": "Android",
             "type": "technology"
           },
           {
@@ -752,7 +676,71 @@
             "type": "technology"
           },
           {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "C#",
+            "type": "technology"
+          },
+          {
+            "name": "C++",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "Elasticsearch",
+            "type": "technology"
+          },
+          {
             "name": "Git",
+            "type": "technology"
+          },
+          {
+            "name": "Google Maps",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "JAVA",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "Kotlin",
+            "type": "technology"
+          },
+          {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
+            "name": "MaterialUI",
+            "type": "technology"
+          },
+          {
+            "name": "Matlab",
+            "type": "technology"
+          },
+          {
+            "name": "MongoDB",
+            "type": "technology"
+          },
+          {
+            "name": "NEO4J",
+            "type": "technology"
+          },
+          {
+            "name": "NoSQL",
             "type": "technology"
           },
           {
@@ -760,7 +748,19 @@
             "type": "technology"
           },
           {
-            "name": "Servlet",
+            "name": "PL/SQL",
+            "type": "technology"
+          },
+          {
+            "name": "Prolog",
+            "type": "technology"
+          },
+          {
+            "name": "Python",
+            "type": "technology"
+          },
+          {
+            "name": "R",
             "type": "technology"
           },
           {
@@ -772,19 +772,27 @@
             "type": "technology"
           },
           {
-            "name": "MaterialUI",
+            "name": "SQL",
             "type": "technology"
           },
           {
-            "name": "Android",
+            "name": "Servlet",
             "type": "technology"
           },
           {
-            "name": "Kotlin",
+            "name": "Spring",
+            "type": "technology"
+          },
+          {
+            "name": "Swing",
             "type": "technology"
           },
           {
             "name": "Unreal",
+            "type": "technology"
+          },
+          {
+            "name": "jQuery",
             "type": "technology"
           }
         ]
@@ -803,7 +811,7 @@
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "Rust",
+          "name": "Docker",
           "type": "technology"
         },
         {
@@ -811,7 +819,7 @@
           "type": "technology"
         },
         {
-          "name": "Docker",
+          "name": "Kotlin",
           "type": "technology"
         },
         {
@@ -819,19 +827,22 @@
           "type": "technology"
         },
         {
-          "name": "Kotlin",
+          "name": "Rust",
           "type": "technology"
         }
       ],
       "discardedCompetences": [
         {
-          "name": "React Native",
+          "name": "PHP",
           "type": "technology"
         },
         {
-          "name": "PHP",
+          "name": "React Native",
           "type": "technology"
         }
+      ],
+      "preferredRoles": [
+        "Backend Developer"
       ]
     }
   }
