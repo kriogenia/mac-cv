@@ -9,7 +9,7 @@
       "name": "Ricardo",
       "surnames": "Soto Estévez",
       "title": "The best Rust developer of my home for two consecutive years",
-      "description": "I started to code when I was twelve, following a random tutorial I found on YT by chance. I fell in love with the discipline and have been coding in my free time ever since. So, picking the Software Engineering grade was an easy choice.\n\nI like all the different disciplines of software I've dealt with but right now I'm kinda specilizing in backend/systems engineering and search engine development as part of my current job position.",
+      "description": "",
       "avatar": {
         "alt": "photo_2021-01-29_22-55-27.jpg",
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/a47beafa-57cb-4f70-b34c-062618c40ae3_photo_2021-01-29_22-.jpg"
@@ -183,6 +183,7 @@
       {
         "details": {
           "name": "BresenhamZip",
+          "description": "",
           "URL": "https://crates.io/crates/bresenham_zip",
           "image": {
             "alt": "Cargo-Logo-Small.png",
@@ -473,13 +474,16 @@
   "knowledge": {
     "languages": [
       {
-        "name": "English"
+        "name": "English",
+        "level": "Limited working proficiency"
       },
       {
-        "name": "Galician"
+        "name": "Galician",
+        "level": "Limited working proficiency"
       },
       {
-        "name": "Spanish"
+        "name": "Spanish",
+        "level": "Limited working proficiency"
       }
     ],
     "hardSkills": [
@@ -844,6 +848,7 @@
       "preferredRoles": [
         "Backend Developer"
       ]
-    }
+    },
+    "status": "openToOffers"
   }
 }
