@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "settings": {
-    "language": "ES",
+    "language": "EN",
     "MACVersion": "0.3"
   },
   "aboutMe": {
@@ -11,34 +11,16 @@
       "title": "The best Rust developer of my home for two consecutive years",
       "description": "Hi, I'm Ricardo",
       "avatar": {
-        "alt": "photo_2021-01-29_22-55-27.jpg",
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/a47beafa-57cb-4f70-b34c-062618c40ae3_photo_2021-01-29_22-.jpg"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/a47beafa-57cb-4f70-b34c-062618c40ae3_photo_2021-01-29_22-.jpg",
+        "alt": "photo_2021-01-29_22-55-27.jpg"
       },
       "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJZxysYJqMNg0RJGJezA5ENDE)",
         "country": "España",
         "region": "Principado de Asturias",
-        "municipality": "Oviedo",
-        "notes": "Autocompleted using Google Maps API"
+        "municipality": "Oviedo"
       }
     },
-    "relevantLinks": [
-      {
-        "type": "github",
-        "URL": "https://github.com/kriogenia"
-      },
-      {
-        "type": "twitter",
-        "URL": "https://twitter.com/kriogenia"
-      },
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/sotoestevez/"
-      },
-      {
-        "type": "other",
-        "URL": "https://www.sotoestevez.dev/"
-      }
-    ],
     "interestingFacts": [
       {
         "topic": "My favourite authors",
@@ -66,14 +48,20 @@
         "title": "The Catalog of Design Patterns",
         "type": "other",
         "URL": "https://refactoring.guru/design-patterns/catalog",
+        "summary": "Basic and very intituitive explanations of the different software design patterns.",
         "authors": [
           {
             "name": "Refactoring.",
             "surnames": "Guru",
             "title": "Author"
           }
-        ],
-        "summary": "Basic and very intituitive explanations of the different software design patterns."
+        ]
+      }
+    ],
+    "relevantLinks": [
+      {
+        "type": "other",
+        "URL": "https://www.sotoestevez.dev/"
       }
     ]
   },
@@ -83,8 +71,8 @@
         "organization": {
           "name": "Empathy Systems Corporation SLU",
           "image": {
-            "alt": "empathy-main-logo.svg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/e56a4d94-4463-4fa3-b717-8899ba645937_empathy-main-logo.svg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/e56a4d94-4463-4fa3-b717-8899ba645937_empathy-main-logo.svg",
+            "alt": "empathy-main-logo.svg"
           },
           "URL": "https://empathy.co/"
         },
@@ -134,8 +122,8 @@
         "organization": {
           "name": "Empathy Systems Corporation SLU",
           "image": {
-            "alt": "empathy-main-logo.svg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/9da18c00-c5d3-4fbd-a949-6540f0701479_empathy-main-logo.svg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/9da18c00-c5d3-4fbd-a949-6540f0701479_empathy-main-logo.svg",
+            "alt": "empathy-main-logo.svg"
           },
           "URL": "https://empathy.co/company/academy/"
         },
@@ -163,7 +151,7 @@
                 "type": "technology"
               },
               {
-                "name": "Micronaut",
+                "name": "Micronaut Framework",
                 "type": "technology"
               },
               {
@@ -182,19 +170,55 @@
     "projects": [
       {
         "details": {
-          "name": "BresenhamZip",
-          "description": "",
-          "URL": "https://crates.io/crates/bresenham_zip",
+          "name": "Shotdown",
+          "description": "Videogame developed during the videogames subject of the grade, evaluated with the maximum mark. IIt's a 2D platform and action competive game with focus in the movement and weapon diversity.",
+          "URL": "https://kriogenia.itch.io/shotdown",
           "image": {
-            "alt": "Cargo-Logo-Small.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/100c199b-4631-4164-aa76-9b7ed85d285a_cargo-logo-small.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/50a3015a-fba2-4e92-8092-7c7509563c26_logo.png",
+            "alt": "logo.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2020-12-01",
+            "competences": [
+              {
+                "name": "C++",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2021-02-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "COWS",
+          "description": "Android application developed during the mobile software subject at the University. It's a news aggregator for COVID related news, allowing their users to quickly look at the new info about the pandemic.",
+          "URL": "https://play.google.com/store/apps/details?id=es.uniovi.eii.cows",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ef5d2259-db85-4395-a094-00a4baebc2cf_covicita.png",
+            "alt": "Covicita.png"
           }
         },
         "type": "openSource",
         "roles": [
           {
             "name": "Developer",
-            "startDate": "2022-03-01"
+            "startDate": "2020-10-01",
+            "competences": [
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "JAVA",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2021-01-01"
           }
         ]
       },
@@ -204,8 +228,8 @@
           "description": "todo",
           "URL": "https://crates.io/crates/ferrux_canvas",
           "image": {
-            "alt": "Cargo-Logo-Small.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/c5f7b2f9-2bf6-4759-b15b-dd1f0f1e9188_cargo-logo-small.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/c5f7b2f9-2bf6-4759-b15b-dd1f0f1e9188_cargo-logo-small.png",
+            "alt": "Cargo-Logo-Small.png"
           }
         },
         "type": "openSource",
@@ -218,12 +242,29 @@
       },
       {
         "details": {
+          "name": "BresenhamZip",
+          "URL": "https://crates.io/crates/bresenham_zip",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/100c199b-4631-4164-aa76-9b7ed85d285a_cargo-logo-small.png",
+            "alt": "Cargo-Logo-Small.png"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2022-03-01"
+          }
+        ]
+      },
+      {
+        "details": {
           "name": "All for One",
           "description": "End of degree project qualified with a 9.5 mark. Tool to help families with some member diagnosed of the Alzheimer disease. It's composed of one Android app and a cloud API with both REST and WebSocket interfaces.\n\nSome of its features are patient geolocation, real-life-time chat, task management and user bonding.",
           "URL": "https://www.linkedin.com/feed/update/urn:li:activity:6900463174059909122/",
           "image": {
-            "alt": "4l1-logo.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/2477e1c8-a45a-4ccc-8203-728b55336dee_4l1-logo.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/2477e1c8-a45a-4ccc-8203-728b55336dee_4l1-logo.png",
+            "alt": "4l1-logo.png"
           }
         },
         "type": "openSource",
@@ -231,7 +272,6 @@
           {
             "name": "Developer",
             "startDate": "2021-06-01",
-            "finishDate": "2022-02-01",
             "competences": [
               {
                 "name": "Android",
@@ -285,61 +325,8 @@
                 "name": "WebSockets",
                 "type": "technology"
               }
-            ]
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "Shotdown",
-          "description": "Videogame developed during the videogames subject of the grade, evaluated with the maximum mark. IIt's a 2D platform and action competive game with focus in the movement and weapon diversity.",
-          "URL": "https://kriogenia.itch.io/shotdown",
-          "image": {
-            "alt": "logo.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/50a3015a-fba2-4e92-8092-7c7509563c26_logo.png"
-          }
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2020-12-01",
-            "finishDate": "2021-02-01",
-            "competences": [
-              {
-                "name": "C++",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "COWS",
-          "description": "Android application developed during the mobile software subject at the University. It's a news aggregator for COVID related news, allowing their users to quickly look at the new info about the pandemic.",
-          "URL": "https://play.google.com/store/apps/details?id=es.uniovi.eii.cows",
-          "image": {
-            "alt": "Covicita.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ef5d2259-db85-4395-a094-00a4baebc2cf_covicita.png"
-          }
-        },
-        "type": "openSource",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2020-10-01",
-            "finishDate": "2021-01-01",
-            "competences": [
-              {
-                "name": "Android",
-                "type": "technology"
-              },
-              {
-                "name": "JAVA",
-                "type": "technology"
-              }
-            ]
+            ],
+            "finishDate": "2022-02-01"
           }
         ]
       },
@@ -349,8 +336,8 @@
           "description": "Videogame developed coursing the related subject in the degree. Procedural top-down action rogue-like heavily inspired in games like The Binding of Isaac. It features power-ups, level-ups and different enemies and bosses.",
           "URL": "https://kriogenia.itch.io/the-parting-of-sarah",
           "image": {
-            "alt": "logo.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ee63f394-586d-4ced-aea0-7f092f411610_logo.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/ee63f394-586d-4ced-aea0-7f092f411610_logo.png",
+            "alt": "logo.png"
           }
         },
         "type": "sideProject",
@@ -358,13 +345,13 @@
           {
             "name": "Developer",
             "startDate": "2019-10-01",
-            "finishDate": "2020-12-01",
             "competences": [
               {
                 "name": "C++",
                 "type": "technology"
               }
-            ]
+            ],
+            "finishDate": "2020-12-01"
           }
         ]
       }
@@ -376,20 +363,20 @@
           "description": "Participe in the Hour of Code 2021 teaching coding to four groups of kids of 10-12 age range.",
           "URL": "https://hourofcode.com/",
           "image": {
-            "alt": "Cargo-Logo-Small.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/85d4e7b5-30d3-4d6b-bf55-c530cae125b5_cargo-logo-small.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/85d4e7b5-30d3-4d6b-bf55-c530cae125b5_cargo-logo-small.png",
+            "alt": "Cargo-Logo-Small.png"
           }
         },
         "type": "talk",
         "publishingDate": "2022-12-01",
+        "tags": [
+          "Teaching"
+        ],
         "relatedCompetences": [
           {
             "name": "Scratch",
             "type": "technology"
           }
-        ],
-        "tags": [
-          "Teaching"
         ]
       },
       {
@@ -397,12 +384,15 @@
           "name": "Finishing my degree presenting All For One",
           "description": "The day to finally show my end of degree project to the tribunal and getting the long awaited title of Software Engineer.",
           "image": {
-            "alt": "245px-Logo_Universidad_de_Oviedo_centrado.jpg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/1fb21f49-783a-481a-9f5e-e3fb86a39639_245px-logo_universid.jpg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/1fb21f49-783a-481a-9f5e-e3fb86a39639_245px-logo_universid.jpg",
+            "alt": "245px-Logo_Universidad_de_Oviedo_centrado.jpg"
           }
         },
         "type": "launch",
         "publishingDate": "2022-02-01",
+        "tags": [
+          "End of Degree Project"
+        ],
         "relatedCompetences": [
           {
             "name": "Android",
@@ -464,9 +454,6 @@
             "name": "WebSockets",
             "type": "technology"
           }
-        ],
-        "tags": [
-          "End of Degree Project"
         ]
       }
     ]
@@ -474,100 +461,22 @@
   "knowledge": {
     "languages": [
       {
-        "name": "English",
+        "name": "EN",
         "level": "Full professional proficiency"
       },
       {
-        "name": "Galician",
+        "name": "ES",
         "level": "Native or bilingual proficiency"
       },
       {
-        "name": "Spanish",
+        "name": "GL",
         "level": "Native or bilingual proficiency"
       }
     ],
     "hardSkills": [
       {
         "skill": {
-          "name": "Rust",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "JAVA",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "JavaScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "TypeScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Elasticsearch",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Solr",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Spring",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Micronaut",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "MongoDB",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "NoSQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "PL/SQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Kotlin",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "C++",
+          "name": "Android",
           "type": "technology"
         }
       },
@@ -579,43 +488,31 @@
       },
       {
         "skill": {
-          "name": "Python",
+          "name": "C++",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "JSON",
+          "name": "CSS",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Linux",
+          "name": "Elasticsearch",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Android",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "NodeJS",
+          "name": "Elixir",
           "type": "technology"
         }
       },
       {
         "skill": {
           "name": "Express",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "React",
           "type": "technology"
         }
       },
@@ -633,7 +530,67 @@
       },
       {
         "skill": {
-          "name": "CSS",
+          "name": "JAVA",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JSON",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Kotlin",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Linux",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Micronaut Framework",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MongoDB",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NoSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PL/SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Python",
           "type": "technology"
         }
       },
@@ -645,7 +602,37 @@
       },
       {
         "skill": {
-          "name": "Elixir",
+          "name": "React",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Rust",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Solr",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeScript",
           "type": "technology"
         }
       }
@@ -656,16 +643,16 @@
         "degreeAchieved": true,
         "name": "Software Engineering",
         "startDate": "2017-09-01",
-        "finishDate": "2022-02-01",
         "institution": {
           "name": "University of Oviedo",
           "description": "Computer Engineering degree focused on software development",
           "URL": "https://ingenieriainformatica.uniovi.es/infoacademica/grado",
           "image": {
-            "alt": "245px-Logo_Universidad_de_Oviedo_centrado.jpg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/9dbb1a45-0ee4-4272-a406-78bcf9b22a16_245px-logo_universid.jpg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/9dbb1a45-0ee4-4272-a406-78bcf9b22a16_245px-logo_universid.jpg",
+            "alt": "245px-Logo_Universidad_de_Oviedo_centrado.jpg"
           }
         },
+        "finishDate": "2022-02-01",
         "linkedCompetences": [
           {
             "name": "AJAX",
@@ -801,14 +788,51 @@
           }
         ]
       }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Continuous learning",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Creative thinking",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Good written communication",
+          "type": "practice"
+        }
+      }
     ]
   },
   "careerPreferences": {
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/sotoestevez/"
+          "URL": "https://www.linkedin.com/in/sotoestevez/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/kriogenia",
+          "type": "github"
+        },
+        {
+          "URL": "https://twitter.com/kriogenia",
+          "type": "twitter"
+        }
+      ],
+      "contactMails": [
+        "esekriogenia@gmail.com"
+      ],
+      "phoneNumbers": [
+        {
+          "number": "637934023",
+          "countryCode": "+34"
         }
       ]
     },
@@ -850,5 +874,33 @@
       ]
     },
     "status": "openToOffers"
+  },
+  "manfredSpecificData": {
+    "desiredJobDescription": "I would like to develop backend technologies like APIs or search engines. Bonus points if it involves Rust.",
+    "projects": [
+      {
+        "name": "All for One"
+      },
+      {
+        "name": "BresenhamZip"
+      },
+      {
+        "name": "COWS"
+      },
+      {
+        "name": "Ferrux Canvas"
+      },
+      {
+        "name": "Shotdown"
+      },
+      {
+        "name": "The Parting of Sarah"
+      }
+    ],
+    "bookmarks": [
+      {
+        "name": "The Catalog of Design Patterns"
+      }
+    ]
   }
 }
