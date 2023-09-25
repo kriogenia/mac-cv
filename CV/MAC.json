@@ -876,6 +876,16 @@
     "status": "openToOffers"
   },
   "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "Git",
+        "type": "technology"
+      },
+      {
+        "name": "REST",
+        "type": "technology"
+      }
+    ],
     "desiredJobDescription": "I would like to develop backend technologies like APIs or search engines. Bonus points if it involves Rust.",
     "projects": [
       {
